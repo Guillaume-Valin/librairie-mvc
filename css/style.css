@@ -1,0 +1,229 @@
+/* ____________________ Initialisation ____________________ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #eee;
+    /* background-image: url(../images/bibliotheque.jpg);
+    background-size: cover;
+    background-attachment: fixed; */
+    color: #111;
+    font-size: 15px;
+}
+
+h2{
+    font-size: 2.5em;
+    text-shadow: 0 0 2px #fff;
+    margin: 0 0 20px 0;
+}
+
+/* ____________________ Header ____________________ */
+header{
+    height: 100px;
+    padding: 20px 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #222;
+    box-shadow: 0 1px 5px #000;
+    color: #eee;
+}
+
+header a{
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+header p{
+    font-size: 0.8em;
+}
+
+header a:hover {
+    color: cyan;
+}
+header a#disconnect:hover{
+    color: rgb(245, 85, 85);
+}
+
+/* ____________________ Header User ____________________ */
+#user{
+    height: 100px;
+    padding: 20px 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #222;
+    box-shadow: 0 1px 5px #000;
+    color: #eee;
+}
+
+#user a{
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+
+#user p{
+    font-size: 0.8em;
+}
+
+#user a:hover {
+    color: cyan;
+}
+#user a#disconnect:hover{
+    color: rgb(245, 85, 85);
+}
+
+/* ____________________ Header Admin ____________________ */
+#admin{
+    height: 100px;
+    padding: 20px 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #ba2b2e;
+    box-shadow: 0 1px 5px #000;
+    color: #eee;
+}
+
+#admin a{
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+
+#admin p{
+    font-size: 0.8em;
+}
+
+#admin a:hover {
+    color: #000;
+}
+#admin a#disconnect:hover{
+    color: rgb(245, 85, 85);
+}
+
+/* ____________________ Main ____________________ */
+
+main{
+    padding: 20px 320px;
+    text-align: center;
+}
+div.centre{
+    display: flex;
+    justify-content: center;
+}
+
+/* ____________________ Boutons consultation ____________________ */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto 20px auto;
+}
+.btnConsultation{
+    font-size: 1.5em;
+    border: 1px solid #ba2b2e;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.596);
+    border-radius: 5px;
+    padding: 5px 0;
+    width: 200px;
+    background-color: #fff;
+    color: #ba2b2e;
+}
+.btnConsultation:hover{
+    color:#fff;
+    background-color: #ba2b2e;
+}
+
+#btnSubmit{
+    font-size: 1.5em;
+    border: 1px solid #ba2b2e;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.596);
+    border-radius: 5px;
+    padding: 5px 0;
+    width: 200px;
+    background-color: #fff;
+    color: #ba2b2e;
+}
+
+#btnSubmit:hover{
+    background: #ba2b2e;
+    color: white;
+}
+
+/* ____________________ Table ____________________ */
+table{
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+}
+
+th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 15px;
+}
+
+th{
+    background-color: #ba2b2e;
+    color: #ddd;
+}
+
+td {
+    background-color: #ddd;
+    color: #222;
+}
+
+/* ____________________ Formulaire ____________________ */
+
+label{
+    display: block;
+    font-size: 1.5em;
+}
+
+input{
+    width: 100%;
+    margin: 5px 0 15px;
+    border-radius: 3px;
+    padding: 3px 5px;
+    border: 1px solid #ba2b2e;
+}
+
+div.formulaire{
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: 1px solid #444;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #333;
+    color: #222;
+    font-size: 0.8em;
+}
+
+div.button{
+    grid: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+input[type='submit']:hover{
+    background: rgb(65, 65, 251);
+    color: white;
+}
+input[type='reset']:hover{
+    background: red;
+    color: white;
+}
+
+img {
+    width: 25px;
+}
+
